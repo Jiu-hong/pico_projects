@@ -1,13 +1,10 @@
 """
-Fan remote colors. Wiring: infrared/wiring.svg.
+An infrared remote sets the WS2812B color. Wiring: wiring.svg.
 
-KY-022 S to GP11. Point the fan remote at the dome.
+KY-022 S to GP11, middle pin to 3V3, minus to GND.
 WS2812B DIN to GP6, 5V to VBUS, GND to GND.
-No KY-005.
 
-Run: ../pico.sh run infrared/remote.py
-Each address 0x80 command lights the strip a different color.
-The color stays until the next known button.
+A button in COLORS sets the color. The color stays until the next one.
 """
 import array
 import time

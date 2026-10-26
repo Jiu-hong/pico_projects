@@ -4,7 +4,11 @@ An infrared remote sets the WS2812B color. Wiring: wiring.svg.
 KY-022 S to GP11, middle pin to 3V3, minus to GND.
 WS2812B DIN to GP6, 5V to VBUS, GND to GND.
 
-A button in COLORS sets the color. The color stays until the next one.
+A button listed in COLORS sets the color. The color stays until the next one.
+
+0x80 is one remote. Yours may be different. Run this file, press a button,
+and read the Shell line, for example "addr 0xAB cmd 0xCD".
+Replace 0x80 with your addr. Put each cmd in COLORS with the color you want.
 """
 import array
 import time
@@ -15,7 +19,8 @@ PIN_RX = 11
 PIN_STRIP = 6
 LED_COUNT = 1
 
-# Address 0x80. The command is what changes from button to button.
+# cmd printed by the Shell, then the color name and red, green, blue.
+# Press a button, copy its cmd here, and choose the color.
 COLORS = {
     0x01: ("red", (255, 0, 0)),
     0x05: ("green", (0, 255, 0)),
@@ -182,6 +187,7 @@ def main():
                 last_at = now
                 continue
             shown = text
+            # 0x80 is my remote. Replace it with the addr printed in the Shell.
             if nec is not None and nec[0] == "nec" and nec[1] == 0x80 and nec[2] in COLORS:
                 name, color = COLORS[nec[2]]
                 fill(sm, color)

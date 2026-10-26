@@ -1,6 +1,7 @@
 IR-Controlled WS2812 Smart Light
 
 [code](ir/remote.py)
+
 [wiring](ir/wiring.svg)
 
 hardware

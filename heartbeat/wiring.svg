@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1660" height="1040" viewBox="0 0 1660 1040">
+<rect width="1660" height="1040" fill="#F7F7F5"/>
+<text x="16" y="32" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="700">Heartbeat</text>
+<text x="16" y="52" fill="#57534e" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="400">Wire only this sheet. Cover the heartbeat sensor with a fingertip.</text>
+
+<rect x="300" y="150" width="220" height="260" rx="8" fill="#30312E"/>
+<text x="314" y="176" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700">OLED</text>
+<text x="506" y="204" text-anchor="end" fill="#EA8326" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="700">VCC</text>
+<text x="506" y="234" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="700">GND</text>
+<text x="506" y="354" text-anchor="end" fill="#7AC943" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="700">SDA</text>
+<text x="506" y="394" text-anchor="end" fill="#7AC943" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="700">SCL</text>
+
+<rect x="1200" y="250" width="200" height="280" rx="8" fill="#30312E"/>
+<text x="1214" y="276" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700">Heartbeat</text>
+<text x="1214" y="302" fill="#EA8326" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="700">+</text>
+<text x="1214" y="360" fill="#DBDDDA" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="400">fingertip</text>
+<text x="1214" y="434" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="700">-</text>
+<text x="1214" y="514" fill="#8EC8F0" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="700">S</text>
+
+<polyline points="520,180 520,80 1160,80 1160,310" fill="none" stroke="#EA8326" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+<polyline points="520,230 737,230" fill="none" stroke="#30312E" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+<polyline points="520,350 737,350" fill="none" stroke="#7AC943" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+<polyline points="520,390 737,390" fill="none" stroke="#7AC943" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+<polyline points="1200,310 923,310" fill="none" stroke="#EA8326" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+<polyline points="1200,430 923,430" fill="none" stroke="#30312E" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+<polyline points="1200,510 923,510" fill="none" stroke="#329BD6" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+
+<circle cx="520" cy="180" r="5" fill="#EA8326" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="520" cy="230" r="5" fill="#FFFFFF" stroke="#30312E" stroke-width="1.5"/>
+<circle cx="520" cy="350" r="5" fill="#7AC943" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="520" cy="390" r="5" fill="#7AC943" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="520" cy="80" r="5" fill="#111111" stroke="#FFFFFF" stroke-width="3"/>
+<circle cx="1160" cy="80" r="5" fill="#111111" stroke="#FFFFFF" stroke-width="3"/>
+<circle cx="1160" cy="310" r="5" fill="#111111" stroke="#FFFFFF" stroke-width="3"/>
+<circle cx="1200" cy="310" r="5" fill="#EA8326" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="1200" cy="430" r="5" fill="#FFFFFF" stroke="#30312E" stroke-width="1.5"/>
+<circle cx="1200" cy="510" r="5" fill="#329BD6" stroke="#FFFFFF" stroke-width="1.5"/>
+
+<rect x="1108" y="292" width="18" height="16" rx="3" fill="#FFFFFF" stroke="#30312E" stroke-width="1"/><text x="1112" y="304" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">+</text>
+<rect x="1108" y="412" width="32.3" height="16" rx="3" fill="#FFFFFF" stroke="#30312E" stroke-width="1"/><text x="1113" y="424" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GND</text>
+<rect x="1108" y="492" width="18" height="16" rx="3" fill="#FFFFFF" stroke="#30312E" stroke-width="1"/><text x="1112" y="504" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">S</text>
+<rect x="784.0" y="98" width="92" height="20" rx="3" fill="#30312E"/>
+<text x="830.0" y="112.0" text-anchor="middle" fill="#F7F7F5" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" font-weight="700">USB</text>
+<rect x="730" y="118" width="200" height="860" rx="18" fill="#006837" stroke="#004E29" stroke-width="3"/>
+<text x="830.0" y="134.0" text-anchor="middle" fill="#F4F6F4" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="700">Pico</text>
+<rect x="582" y="139.0" width="148" height="22" rx="2" fill="#7AC943"/>
+<text x="722.0" y="154.0" text-anchor="end" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP0</text>
+<circle cx="737" cy="150" r="3.2" fill="#F4F6F4"/>
+<text x="746.0" y="153.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">1</text>
+<rect x="582" y="179.0" width="148" height="22" rx="2" fill="#7AC943"/>
+<text x="722.0" y="194.0" text-anchor="end" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP1</text>
+<circle cx="737" cy="190" r="3.2" fill="#F4F6F4"/>
+<text x="746.0" y="193.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">2</text>
+<rect x="582" y="219.0" width="148" height="22" rx="2" fill="#30312E"/>
+<text x="722.0" y="234.0" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GND</text>
+<circle cx="737" cy="230" r="3.2" fill="#F4F6F4"/>
+<text x="746.0" y="233.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">3</text>
+<rect x="582" y="259.0" width="148" height="22" rx="2" fill="#7AC943"/>
+<text x="722.0" y="274.0" text-anchor="end" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP2</text>
+<circle cx="737" cy="270" r="3.2" fill="#F4F6F4"/>
+<text x="746.0" y="273.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">4</text>
+<rect x="582" y="299.0" width="148" height="22" rx="2" fill="#7AC943"/>
+<text x="722.0" y="314.0" text-anchor="end" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP3</text>
+<circle cx="737" cy="310" r="3.2" fill="#F4F6F4"/>
+<text x="746.0" y="313.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">5</text>
+<rect x="582" y="339.0" width="148" height="22" rx="2" fill="#7AC943"/>
+<text x="590.0" y="354.0" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">SDA</text>
+<text x="722.0" y="354.0" text-anchor="end" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP4</text>
+<circle cx="737" cy="350" r="3.2" fill="#F4F6F4"/>
+<text x="746.0" y="353.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">6</text>
+<rect x="582" y="379.0" width="148" height="22" rx="2" fill="#7AC943"/>
+<text x="590.0" y="394.0" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">SCL</text>
+<text x="722.0" y="394.0" text-anchor="end" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP5</text>
+<circle cx="737" cy="390" r="3.2" fill="#F4F6F4"/>
+<text x="746.0" y="393.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">7</text>
+<rect x="582" y="419.0" width="148" height="22" rx="2" fill="#30312E"/>
+<text x="722.0" y="434.0" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GND</text>
+<circle cx="737" cy="430" r="3.2" fill="#F4F6F4"/>
+<text x="746.0" y="433.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">8</text>
+<rect x="582" y="459.0" width="148" height="22" rx="2" fill="#7AC943"/>
+<text x="722.0" y="474.0" text-anchor="end" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP6</text>
+<circle cx="737" cy="470" r="3.2" fill="#F4F6F4"/>
+<text x="746.0" y="473.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">9</text>
+<rect x="582" y="499.0" width="148" height="22" rx="2" fill="#7AC943"/>
+<text x="722.0" y="514.0" text-anchor="end" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP7</text>
+<circle cx="737" cy="510" r="3.2" fill="#F4F6F4"/>
+<text x="746.0" y="513.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">10</text>
+<rect x="582" y="539.0" width="148" height="22" rx="2" fill="#7AC943"/>
+<text x="722.0" y="554.0" text-anchor="end" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP8</text>
+<circle cx="737" cy="550" r="3.2" fill="#F4F6F4"/>
+<text x="746.0" y="553.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">11</text>
+<rect x="582" y="579.0" width="148" height="22" rx="2" fill="#7AC943"/>
+<text x="722.0" y="594.0" text-anchor="end" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP9</text>
+<circle cx="737" cy="590" r="3.2" fill="#F4F6F4"/>
+<text x="746.0" y="593.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">12</text>
+<rect x="582" y="619.0" width="148" height="22" rx="2" fill="#30312E"/>
+<text x="722.0" y="634.0" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GND</text>
+<circle cx="737" cy="630" r="3.2" fill="#F4F6F4"/>
+<text x="746.0" y="633.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">13</text>
+<rect x="582" y="659.0" width="148" height="22" rx="2" fill="#7AC943"/>
+<text x="722.0" y="674.0" text-anchor="end" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP10</text>
+<circle cx="737" cy="670" r="3.2" fill="#F4F6F4"/>
+<text x="746.0" y="673.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">14</text>
+<rect x="582" y="699.0" width="148" height="22" rx="2" fill="#7AC943"/>
+<text x="722.0" y="714.0" text-anchor="end" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP11</text>
+<circle cx="737" cy="710" r="3.2" fill="#F4F6F4"/>
+<text x="746.0" y="713.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">15</text>
+<rect x="582" y="739.0" width="148" height="22" rx="2" fill="#7AC943"/>
+<text x="722.0" y="754.0" text-anchor="end" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP12</text>
+<circle cx="737" cy="750" r="3.2" fill="#F4F6F4"/>
+<text x="746.0" y="753.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">16</text>
+<rect x="582" y="779.0" width="148" height="22" rx="2" fill="#7AC943"/>
+<text x="722.0" y="794.0" text-anchor="end" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP13</text>
+<circle cx="737" cy="790" r="3.2" fill="#F4F6F4"/>
+<text x="746.0" y="793.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">17</text>
+<rect x="582" y="819.0" width="148" height="22" rx="2" fill="#30312E"/>
+<text x="722.0" y="834.0" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GND</text>
+<circle cx="737" cy="830" r="3.2" fill="#F4F6F4"/>
+<text x="746.0" y="833.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">18</text>
+<rect x="582" y="859.0" width="148" height="22" rx="2" fill="#7AC943"/>
+<text x="722.0" y="874.0" text-anchor="end" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP14</text>
+<circle cx="737" cy="870" r="3.2" fill="#F4F6F4"/>
+<text x="746.0" y="873.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">19</text>
+<rect x="582" y="899.0" width="148" height="22" rx="2" fill="#7AC943"/>
+<text x="722.0" y="914.0" text-anchor="end" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP15</text>
+<circle cx="737" cy="910" r="3.2" fill="#F4F6F4"/>
+<text x="746.0" y="913.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">20</text>
+<rect x="930" y="139.0" width="148" height="22" rx="2" fill="#E83131"/>
+<text x="938.0" y="154.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">VBUS</text>
+<circle cx="923" cy="150" r="3.2" fill="#F4F6F4"/>
+<text x="914.0" y="153.0" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">40</text>
+<rect x="930" y="179.0" width="148" height="22" rx="2" fill="#E83131"/>
+<text x="938.0" y="194.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">VSYS</text>
+<circle cx="923" cy="190" r="3.2" fill="#F4F6F4"/>
+<text x="914.0" y="193.0" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">39</text>
+<rect x="930" y="219.0" width="148" height="22" rx="2" fill="#30312E"/>
+<text x="938.0" y="234.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GND</text>
+<circle cx="923" cy="230" r="3.2" fill="#F4F6F4"/>
+<text x="914.0" y="233.0" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">38</text>
+<rect x="930" y="259.0" width="148" height="22" rx="2" fill="#E83131"/>
+<text x="938.0" y="274.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">3V3_EN</text>
+<circle cx="923" cy="270" r="3.2" fill="#F4F6F4"/>
+<text x="914.0" y="273.0" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">37</text>
+<rect x="930" y="299.0" width="148" height="22" rx="2" fill="#E83131"/>
+<text x="938.0" y="314.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">3V3</text>
+<circle cx="923" cy="310" r="3.2" fill="#F4F6F4"/>
+<text x="914.0" y="313.0" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">36</text>
+<rect x="930" y="339.0" width="148" height="22" rx="2" fill="#E83131"/>
+<text x="938.0" y="354.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">ADC_VREF</text>
+<circle cx="923" cy="350" r="3.2" fill="#F4F6F4"/>
+<text x="914.0" y="353.0" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">35</text>
+<rect x="930" y="379.0" width="148" height="22" rx="2" fill="#329BD6"/>
+<text x="938.0" y="394.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP28</text>
+<circle cx="923" cy="390" r="3.2" fill="#F4F6F4"/>
+<text x="914.0" y="393.0" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">34</text>
+<rect x="930" y="419.0" width="148" height="22" rx="2" fill="#30312E"/>
+<text x="938.0" y="434.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GND</text>
+<circle cx="923" cy="430" r="3.2" fill="#F4F6F4"/>
+<text x="914.0" y="433.0" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">33</text>
+<rect x="930" y="459.0" width="148" height="22" rx="2" fill="#329BD6"/>
+<text x="938.0" y="474.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP27</text>
+<circle cx="923" cy="470" r="3.2" fill="#F4F6F4"/>
+<text x="914.0" y="473.0" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">32</text>
+<rect x="930" y="499.0" width="148" height="22" rx="2" fill="#329BD6"/>
+<text x="938.0" y="514.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP26</text>
+<text x="1064.0" y="514.0" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">S</text>
+<circle cx="923" cy="510" r="3.2" fill="#F4F6F4"/>
+<text x="914.0" y="513.0" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">31</text>
+<rect x="930" y="539.0" width="148" height="22" rx="2" fill="#363A44"/>
+<text x="938.0" y="554.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">RUN</text>
+<circle cx="923" cy="550" r="3.2" fill="#F4F6F4"/>
+<text x="914.0" y="553.0" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">30</text>
+<rect x="930" y="579.0" width="148" height="22" rx="2" fill="#7AC943"/>
+<text x="938.0" y="594.0" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP22</text>
+<circle cx="923" cy="590" r="3.2" fill="#F4F6F4"/>
+<text x="914.0" y="593.0" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">29</text>
+<rect x="930" y="619.0" width="148" height="22" rx="2" fill="#30312E"/>
+<text x="938.0" y="634.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GND</text>
+<circle cx="923" cy="630" r="3.2" fill="#F4F6F4"/>
+<text x="914.0" y="633.0" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">28</text>
+<rect x="930" y="659.0" width="148" height="22" rx="2" fill="#7AC943"/>
+<text x="938.0" y="674.0" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP21</text>
+<circle cx="923" cy="670" r="3.2" fill="#F4F6F4"/>
+<text x="914.0" y="673.0" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">27</text>
+<rect x="930" y="699.0" width="148" height="22" rx="2" fill="#7AC943"/>
+<text x="938.0" y="714.0" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP20</text>
+<circle cx="923" cy="710" r="3.2" fill="#F4F6F4"/>
+<text x="914.0" y="713.0" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">26</text>
+<rect x="930" y="739.0" width="148" height="22" rx="2" fill="#7AC943"/>
+<text x="938.0" y="754.0" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP19</text>
+<circle cx="923" cy="750" r="3.2" fill="#F4F6F4"/>
+<text x="914.0" y="753.0" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">25</text>
+<rect x="930" y="779.0" width="148" height="22" rx="2" fill="#7AC943"/>
+<text x="938.0" y="794.0" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP18</text>
+<circle cx="923" cy="790" r="3.2" fill="#F4F6F4"/>
+<text x="914.0" y="793.0" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">24</text>
+<rect x="930" y="819.0" width="148" height="22" rx="2" fill="#30312E"/>
+<text x="938.0" y="834.0" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GND</text>
+<circle cx="923" cy="830" r="3.2" fill="#F4F6F4"/>
+<text x="914.0" y="833.0" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">23</text>
+<rect x="930" y="859.0" width="148" height="22" rx="2" fill="#7AC943"/>
+<text x="938.0" y="874.0" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP17</text>
+<circle cx="923" cy="870" r="3.2" fill="#F4F6F4"/>
+<text x="914.0" y="873.0" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">22</text>
+<rect x="930" y="899.0" width="148" height="22" rx="2" fill="#7AC943"/>
+<text x="938.0" y="914.0" fill="#143018" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700">GP16</text>
+<circle cx="923" cy="910" r="3.2" fill="#F4F6F4"/>
+<text x="914.0" y="913.0" text-anchor="end" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="400">21</text>
+
+
+</svg>

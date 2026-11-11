@@ -23,21 +23,6 @@ hardware
 - Heartbeat sensor — fingertip covers it, the pulse is the signal
 - OLED — 0.96 inch screen, draws the scrolling trace
 
-# Tilt Rainbow, Still Green
-
-[code](tilt-light/shake_1.py)
-
-[wiring](tilt-light/wiring.svg)
-
-[battery](tilt-light/wiring-battery.svg)
-
-hardware
-
-- Raspberry Pi Pico — runs the program
-- KY-017 — mercury switch in a glass tube, closed while tilted. Keep the tube intact.
-- WS2812B — several colors while tilted, green while still
-- Three 1.5 V cells — series pack for the battery sheet, 4.5 V to VSYS and the strip 5V. Unplug USB.
-
 # Shake Rainbow, Still Green
 
 [code](tilt-light/main.py)
